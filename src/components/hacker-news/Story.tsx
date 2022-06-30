@@ -10,7 +10,10 @@ export default function Story({ data }: StoryProps) {
   return (
     <div>
       <h2>
-        [{story.score}] <a href={story.url}>{story.title}</a>
+        [{story.score}]{" "}
+        <a href={story.url} target="_blank" rel="noreferrer">
+          {story.title}
+        </a>
       </h2>
 
       <p>
