@@ -1,14 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;700&display=swap');
 
+:root {
+  --primary-color: #354259;
+  --primary-bg-color: #F0EBE3;
+  --secondary-bg-color: #7D9D9C;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: 'IBM Plex Serif', serif;
+  background-color: var(--primary-bg-color);
+  color: var(--primary-color);
 }
 
 a {
   color: inherit;
+  text-decoration: dotted;
 }
 
 a:hover {
