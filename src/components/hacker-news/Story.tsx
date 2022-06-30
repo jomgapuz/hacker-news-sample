@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { RandomStory } from "../../pages/lib/hacker-news/getRandomStories";
+import { RandomStory } from "../../lib/hacker-news/getRandomStories";
 import styles from "./Story.module.css";
 import avatarJpg from "../../../assets/image/avatar-6c5702f407a9f1693ac4e51e1d9d2e9a.jpg";
 

@@ -1,5 +1,5 @@
 import useSWR from "swr";
-import getRandomStories from "../pages/lib/hacker-news/getRandomStories";
+import getRandomStories from "../lib/hacker-news/getRandomStories";
 
 export const TOP_STORIES_SWR_KEY = "@topStories";
 
